@@ -19,6 +19,10 @@
 
 > `$ pip install -r requirements.txt`
 
-**Запуск автотестов и создание HTML-отчета о покрытии**
+**Запуск всех тестов**
+
+> `$ pytest -v`
+
+**Запуск автотестов и создание HTML-отчета о покрытии. Отчет о покрытии можно посмотреть в файле [index.html](htmlcov/index.html)**
 
 >  `$ pytest --cov=praktikum --cov-report=html`
